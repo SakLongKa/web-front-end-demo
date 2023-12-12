@@ -23,7 +23,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const api = axios.create({
   baseURL: `http://localhost:8000/`,
 });
-const URL_API = "https://apple-store-deploy.herokuapp.com/";
+const URL_API = "https://web-demo-17cb32f24759.herokuapp.com/";
 const App = () => {
   const [temp, setTemp] = useState([]);
   const [products, setProducts] = useState([]);
